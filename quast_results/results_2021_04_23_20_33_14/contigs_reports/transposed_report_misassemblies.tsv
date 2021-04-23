@@ -1,0 +1,6 @@
+Assembly	# misassemblies	  # contig misassemblies	    # c. relocations	    # c. translocations	    # c. inversions	  # scaffold misassemblies	    # s. relocations	    # s. translocations	    # s. inversions	# misassembled contigs	Misassembled contigs length	# local misassemblies	# scaffold gap ext. mis.	# scaffold gap loc. mis.	# unaligned mis. contigs	# mismatches	# indels	    # indels (<= 5 bp)	    # indels (> 5 bp)	Indels length
+pacbio_20x.contigs	8	8	6	0	2	0	0	0	0	3	1061852	2	0	0	0	219	6495	6493	2	6677
+pacbio_40x.contigs	8	8	6	0	2	0	0	0	0	1	4652210	2	0	0	0	43	1321	1321	0	1350
+pacbio_80x.contigs	8	8	6	0	2	0	0	0	0	1	4653062	2	0	0	0	15	441	441	0	445
+illumina_contigs	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	47	15	12	3	77
+illumina_pacbio_contigs	6	6	6	0	0	0	0	0	0	1	4641722	5	0	0	0	386	40	37	3	183

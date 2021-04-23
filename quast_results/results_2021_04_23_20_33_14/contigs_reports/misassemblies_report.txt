@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     pacbio_20x.contigs  pacbio_40x.contigs  pacbio_80x.contigs  illumina_contigs  illumina_pacbio_contigs
+# misassemblies              8                   8                   8                   0                 6                      
+  # contig misassemblies     8                   8                   8                   0                 6                      
+    # c. relocations         6                   6                   6                   0                 6                      
+    # c. translocations      0                   0                   0                   0                 0                      
+    # c. inversions          2                   2                   2                   0                 0                      
+  # scaffold misassemblies   0                   0                   0                   0                 0                      
+    # s. relocations         0                   0                   0                   0                 0                      
+    # s. translocations      0                   0                   0                   0                 0                      
+    # s. inversions          0                   0                   0                   0                 0                      
+# misassembled contigs       3                   1                   1                   0                 1                      
+Misassembled contigs length  1061852             4652210             4653062             0                 4641722                
+# local misassemblies        2                   2                   2                   4                 5                      
+# scaffold gap ext. mis.     0                   0                   0                   0                 0                      
+# scaffold gap loc. mis.     0                   0                   0                   0                 0                      
+# unaligned mis. contigs     0                   0                   0                   0                 0                      
+# mismatches                 219                 43                  15                  47                386                    
+# indels                     6495                1321                441                 15                40                     
+    # indels (<= 5 bp)       6493                1321                441                 12                37                     
+    # indels (> 5 bp)        2                   0                   0                   3                 3                      
+Indels length                6677                1350                445                 77                183                    

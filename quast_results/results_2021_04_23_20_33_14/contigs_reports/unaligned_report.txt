@@ -1,0 +1,8 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                       pacbio_20x.contigs  pacbio_40x.contigs  pacbio_80x.contigs  illumina_contigs  illumina_pacbio_contigs
+# fully unaligned contigs      0                   0                   0                   1                 1                      
+Fully unaligned length         0                   0                   0                   542               542                    
+# partially unaligned contigs  0                   0                   0                   0                 0                      
+Partially unaligned length     0                   0                   0                   0                 0                      
+# N's                          0                   0                   0                   0                 0                      

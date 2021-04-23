@@ -1,0 +1,32 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{5}{|r}|}
+\hline
+Assembly & pacbio\_20x.contigs & pacbio\_40x.contigs & pacbio\_80x.contigs & illumina\_contigs & illumina\_pacbio\_contigs \\ \hline
+\# misassemblies & 8 & 8 & 8 & {\bf 0} & 6 \\ \hline
+\hspace{2mm}\# contig misassemblies & 8 & 8 & 8 & 0 & 6 \\ \hline
+\hspace{5mm}\# c. relocations & 6 & 6 & 6 & 0 & 6 \\ \hline
+\hspace{5mm}\# c. translocations & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# c. inversions & 2 & 2 & 2 & 0 & 0 \\ \hline
+\hspace{2mm}\# scaffold misassemblies & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# s. relocations & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# s. translocations & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# s. inversions & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & 3 & 1 & 1 & {\bf 0} & 1 \\ \hline
+Misassembled contigs length & 1061852 & 4652210 & 4653062 & {\bf 0} & 4641722 \\ \hline
+\# local misassemblies & {\bf 2} & {\bf 2} & {\bf 2} & 4 & 5 \\ \hline
+\# scaffold gap ext. mis. & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# scaffold gap loc. mis. & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# unaligned mis. contigs & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# mismatches & 219 & 43 & {\bf 15} & 47 & 386 \\ \hline
+\# indels & 6495 & 1321 & 441 & {\bf 15} & 40 \\ \hline
+\hspace{5mm}\# indels ($\leq$ 5 bp) & 6493 & 1321 & 441 & {\bf 12} & 37 \\ \hline
+\hspace{5mm}\# indels ($>$ 5 bp) & 2 & {\bf 0} & {\bf 0} & 3 & 3 \\ \hline
+Indels length & 6677 & 1350 & 445 & {\bf 77} & 183 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}
